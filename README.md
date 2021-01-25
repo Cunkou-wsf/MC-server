@@ -69,9 +69,47 @@ start_command: java -jar fabric-server-launch.jar nogui
 ## 插件
 [这里](https://github.com/MCDReforged/PluginCatalogue) 是一个 MCDR 的插件收集仓库
 
+## 个人电脑和小伙伴一起玩
+如果你已经成功开好了一个服务器
+``127.0.0.1``这个地址就是本地端，自己可以上游戏输入这个ip直接进服务器
+
+没有公网ip如何让自己的朋友也能进来
+
+因为大部分人家里是没有公网ip的，所以需要用到内网穿透
+
+进入[SAKURA FRP官网](https://www.natfrp.com/)(目前必须完成实名认证才允许使用中国大陆节点，认证需要支付1RMB)
+
+注册登陆后左边菜单栏找到``软件下载``下载安装要用到的软件
+
+``每日签到``可以获得免费的流量
+
+官网的``管理面板``上也有[Minecraft的内网穿透教程](https://www.bilibili.com/video/BV1164y1c7iv/)空降5:30
+
+打开安装好的内网穿透软件，创建隧道
+
+``本地ip``填127.0.0.1
+
+``端口``默认填25565
+
+``隧道类型``选tcp
+
+``服务器``自行选择线路
+
+创建完毕后开启隧道，点开``日志``
+
+```
+TCP 类型隧道启动成功
+使用 [*****] 来连接到你的隧道
+或使用 IP 地址连接（不推荐）：[*****]
+
+```
+``日志``显示的两个地址都是可以用来连接服务器的
+
 ## 相关链接
 [Fabric](https://fabricmc.net/use/)用于加载Mods 
 
 [Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files)地毯模组 
 
 [MCDR](https://github.com/Fallen-Breath/MCDReforged/releases/tag/v1.2.2)用于加载插件 
+
+[SAKURA FRP](https://www.natfrp.com/)用于内网穿透进行联机
