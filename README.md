@@ -21,7 +21,7 @@ java -jar fabric-server-launch.jar nogui
 pause
 ```
 ## 地毯端地毯模组安装
-下载对应版本的[Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet)地毯模组
+下载对应版本的[Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files)地毯模组
 放进``mods``文件夹
 
 地毯端就安装完成，具体配置参考B站专栏[[Minecraft|Carpet Mod]地毯全功能说明](https://www.bilibili.com/read/cv8371451)by[ForDream丶梦空](https://space.bilibili.com/412669242)
@@ -72,6 +72,6 @@ start_command: java -jar fabric-server-launch.jar nogui
 ## 相关链接
 [Fabric](https://fabricmc.net/use/)用于加载Mods 
 
-[Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet)地毯模组 
+[Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files)地毯模组 
 
 [MCDR](https://github.com/Fallen-Breath/MCDReforged/releases/tag/v1.2.2)用于加载插件 
