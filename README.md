@@ -14,7 +14,7 @@
 服务器配置文件``server.properties``参考B站专栏
 [Minecraft 服务器server.properties属性文件介绍 (最详细 最全 汉化)](https://www.bilibili.com/read/cv7149916)by[时光丿Time](https://space.bilibili.com/169563643)
 
-要是不喜欢开服后会额外弹窗，右键``start.bat``用记事本打开
+要是不喜欢开服后会额外弹窗，右键``start.bat``编辑
 在第一行最后加上 ``nogui``
 ```
 java -jar fabric-server-launch.jar nogui
