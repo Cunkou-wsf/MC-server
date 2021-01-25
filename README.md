@@ -39,9 +39,11 @@ win10可以直接在微软商店搜索Python下载
 
 安装服务器到``server``文件夹，具体步骤看最前面
 
-打开``MCDReforged\mcdreforged\resources``找到``default_config.yml``和``default_permission.yml``分别打开
+双击运行``MCDReforged.py``
 
-``default_config.yml``
+找到新生成的``config.yml``和``permission.yml``
+
+``config.yml``
 ```
 
 language: en_us 改成language: zh_cn 
@@ -58,9 +60,9 @@ start_command: java -jar fabric-server-launch.jar nogui
 
 ```
 
-``default_permission.yml``按照``- id``将自己的游戏id添加到owner或admin获取高权限
+``permission.yml``按照``- id``将自己的游戏id添加到owner或admin获取高权限
 
-双击运行``MCDReforged.py``文件即可
+再次双击运行``MCDReforged.py``文件即可启动服务器
 
 ``plugins``文件夹是放插件的
 
