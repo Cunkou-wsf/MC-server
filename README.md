@@ -133,3 +133,5 @@ TCP 类型隧道启动成功
 [MCDR插件仓库](https://github.com/MCDReforged/PluginCatalogue/blob/catalogue/readme-zh_cn.md) 
 
 [SAKURA FRP](https://www.natfrp.com/)用于内网穿透进行联机
+
+[NATAPP](https://natapp.cn/)用于内网穿透进行联机
