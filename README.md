@@ -34,8 +34,9 @@ win10可以直接在微软商店搜索Python下载
 
 也可以直接访问[Python官网](https://www.python.org/)下载 安装时候把勾都点上
 
-配置好Python环境后
-下载[MCDR](https://github.com/Fallen-Breath/MCDReforged)
+安装好Python后打开cmd输入python，安装成功会显示对应安装的版本号
+
+下载[MCDR](https://github.com/Fallen-Breath/MCDReforged)推荐下方的指令安装
 在CMD中输入``pip install mcdreforged``安装，国内镜像源``pip install mcdreforged -i https://pypi.tuna.tsinghua.edu.cn/simple``
 
 在Python的安装目录中依次打开``\Lib\site-packages``，可以找到``mcdreforged``文件夹，把整个文件夹复制到自己想要的位置
