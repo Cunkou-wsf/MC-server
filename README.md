@@ -35,18 +35,19 @@ win10可以直接在微软商店搜索Python下载
 也能访问[Python官网](https://www.python.org/)下载 安装时候把勾都点上
 
 配置好Python环境后
-下载[MCDR](https://github.com/Fallen-Breath/MCDReforged/releases/tag/v1.2.2)并解压
+下载[MCDR](https://github.com/Fallen-Breath/MCDReforged)
+在CMD中输入``pip install mcdreforged``安装，国内镜像源``pip install mcdreforged -i https://pypi.tuna.tsinghua.edu.cn/simple``
 
-安装服务器到``server``文件夹，具体步骤看最前面
+在Python的安装目录中依次打开``\Lib\site-packages``，可以找到``mcdreforged``文件夹，把整个文件夹复制到自己想要的位置
 
-双击运行``MCDReforged.py``
+打开``mcdreforged``文件夹，空白处右键``在 windows 终端 中打开``，输入指令``python -m mcdreforged init``
 
 找到新生成的``config.yml``和``permission.yml``
 
 ``config.yml``
 ```
 
-language: en_us 改成language: zh_cn 
+language: en_us 改成language: zh_cn
 
 #语言设置为中文
 
@@ -54,24 +55,25 @@ start_command: java -Xms1G -Xmx2G -jar minecraft_server.jar nogui
 
 改成
 
-start_command: java -jar fabric-server-launch.jar nogui
+start.bat
 
-#可以从start.bat文件里直接复制
+#要改启动选项可以直接在start.bat文件里改
 
 ```
 
 ``permission.yml``按照``- id``将自己的游戏id添加到owner或admin获取高权限
+如我的游戏id是``wangshifu``,我想要有最高的权限，就在``owner:``后加上``- wangshifu``
 
-再次双击运行``MCDReforged.py``文件即可启动服务器
+再次双击运行``__main__.py``文件即可启动服务器
 
 ``plugins``文件夹是放插件的
 
 ## 插件
-[这里](https://github.com/MCDReforged/PluginCatalogue) 是一个 MCDR 的插件收集仓库
+[这里](https://github.com/MCDReforged/PluginCatalogue/blob/catalogue/readme-zh_cn.md) 是一个 MCDR 的插件收集仓库
 
 ## 个人电脑和小伙伴一起玩
 如果你已经成功开好了一个服务器
-``127.0.0.1``这个地址就是本地端，自己可以上游戏输入这个ip直接进服务器
+``127.0.0.1``这个地址就是本地端，开服的人可以自己进本地端看看，有没有成功开启服务器
 
 没有公网ip如何让自己的朋友也能进来
 
@@ -112,7 +114,7 @@ TCP 类型隧道启动成功
 
 [Python官网](https://www.python.org/)
 
-[MCDR](https://github.com/Fallen-Breath/MCDReforged/releases)用于加载插件 
+[MCDR](https://github.com/Fallen-Breath/MCDReforged)用于加载插件 
 
 [MCDR插件仓库](https://github.com/MCDReforged/PluginCatalogue/blob/catalogue/readme-zh_cn.md) 
 
