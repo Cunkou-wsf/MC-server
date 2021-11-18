@@ -128,7 +128,9 @@ TCP 类型隧道启动成功
 
 [Python官网](https://www.python.org/)
 
-[MCDR](https://github.com/Fallen-Breath/MCDReforged)用于加载插件 
+[MCDR](https://github.com/Fallen-Breath/MCDReforged)用于加载插件
+
+[MCDR官方教程](https://mcdreforged.readthedocs.io/zh_CN/latest/quick_start.html)
 
 [MCDR插件仓库](https://github.com/MCDReforged/PluginCatalogue/blob/catalogue/readme-zh_cn.md) 
 
