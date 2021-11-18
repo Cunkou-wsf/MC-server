@@ -5,6 +5,15 @@
 
 安装完毕后会弹窗提示缺少服务器核心文件，选择下载(Download server jar)，下载完毕点击生成启动文件(Generate)
 
+从java官网下载zip文件解压放到同一目录，以我自己的java版本为例，``jdk-16.0.1``和``start.bat``文件是在同一个文件夹里的
+
+``start.bat``右键编辑
+```
+set JAVA_HOME=jdk-16.0.1//按照自己的java版本来，java文件夹是啥名字就填啥
+set PATH=%JAVA_HOME%/bin;%JAVA_HOME%/jre/bin
+java -jar fabric-server-launch.jar nogui
+```
+
 运行``start.bat``文件等待命令窗口运行完毕，打开新生成的文件``eula.txt``
 
 将``eula=false``改成``eula=true``后再次运行``start.bat``
@@ -111,6 +120,8 @@ TCP 类型隧道启动成功
 ``日志``显示的两个地址都是可以用来连接服务器的
 
 ## 相关链接
+[JAVA](https://www.oracle.com/java/technologies/downloads/)
+
 [Fabric](https://fabricmc.net/use/)用于加载Mods 
 
 [Carpet](https://www.curseforge.com/minecraft/mc-mods/carpet/files)地毯模组 
