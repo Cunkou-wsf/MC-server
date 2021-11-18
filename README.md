@@ -11,7 +11,7 @@
 ```
 set JAVA_HOME=jdk-16.0.1//按照自己的java版本来，java文件夹是啥名字就填啥
 set PATH=%JAVA_HOME%/bin;%JAVA_HOME%/jre/bin
-java -jar fabric-server-launch.jar nogui
+java -jar fabric-server-launch.jar nogui//这一行是启动参数，会改的可以按自己需求改，不懂的默认就行了
 ```
 
 运行``start.bat``文件等待命令窗口运行完毕，打开新生成的文件``eula.txt``
