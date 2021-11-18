@@ -65,6 +65,8 @@ start.bat
 ``permission.yml``按照``- id``将自己的游戏id添加到owner或admin获取高权限
 如我的游戏id是``wangshifu``,我想要有最高的权限，就在``owner:``后加上``- wangshifu``
 
+之后将已有的服务器文件放到``server``文件夹里
+
 再次双击运行``__main__.py``文件即可启动服务器
 
 ``plugins``文件夹是放插件的
