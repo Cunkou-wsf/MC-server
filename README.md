@@ -83,7 +83,7 @@ start.bat
 ## 插件
 [这里](https://github.com/MCDReforged/PluginCatalogue/blob/catalogue/readme-zh_cn.md) 是一个 MCDR 的插件收集仓库
 
-## 个人电脑和小伙伴一起玩
+## 个人电脑开服但没有公网ip的联机方法
 如果你已经成功开好了一个服务器
 ``127.0.0.1``这个地址就是本地端，开服的人可以自己进本地端看看，有没有成功开启服务器
 
