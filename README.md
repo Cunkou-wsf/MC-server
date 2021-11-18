@@ -32,7 +32,7 @@ pause
 
 win10可以直接在微软商店搜索Python下载
 
-也能访问[Python官网](https://www.python.org/)下载 安装时候把勾都点上
+也可以直接访问[Python官网](https://www.python.org/)下载 安装时候把勾都点上
 
 配置好Python环境后
 下载[MCDR](https://github.com/Fallen-Breath/MCDReforged)
