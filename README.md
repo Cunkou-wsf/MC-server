@@ -68,7 +68,7 @@ start_command: java -Xms1G -Xmx2G -jar minecraft_server.jar nogui
 
 改成
 
-start.bat
+start_command: start.bat
 
 #要改启动选项可以直接在start.bat文件里改
 
