@@ -92,7 +92,7 @@ start.bat
 
 没有公网ip如何让自己的朋友也能进来
 
-因为大部分人家里是没有公网ip的，所以需要用到内网穿透
+因为大部分人家里是没有公网ip的，所以需要用到内网穿透[SAKURA FRP](https://www.natfrp.com/)或者[NATAPP](https://natapp.cn/)用法都是差不多的
 
 进入[SAKURA FRP官网](https://www.natfrp.com/)(目前必须完成实名认证才允许使用中国大陆节点，认证需要支付1RMB)
 
